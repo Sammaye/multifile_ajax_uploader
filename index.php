@@ -3,6 +3,7 @@
 
 	<link href="/css/main.css" rel="stylesheet" type="text/css">
 
+	<script type="text/javascript" src="/js/jquery.js"></script>
 	<script type="text/javascript" src="/js/video_uploader.js"></script>
 	<script type="text/javascript">
 	$(function(){
