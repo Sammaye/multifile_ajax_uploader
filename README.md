@@ -8,7 +8,7 @@ This uploader acts a lot like the Youtube uploader except instead of working ove
 - AJAX (as it is now)
 - Or an iframe
 
-For instructions on what you need to complete this repository please visit my blog page about this code here: (PHP Upload Progress bar V2)[http://sammaye.wordpress.com/2010/11/16/php-upload-progress-bar-v2/]
+For instructions on what you need to complete this repository please visit my blog page about this code here: [PHP Upload Progress bar V2](http://sammaye.wordpress.com/2010/11/16/php-upload-progress-bar-v2/)
 
 You will need:
 
