@@ -1,5 +1,5 @@
 var upload_timer;
-var timeout = 10000;
+var timeout = 5000;
 var u_ids = [];
 
 function finish_upload(id, success, message){
@@ -83,7 +83,7 @@ function add_upload(){
 	count = $(".upload_item").length;
 
 	// Generate the form
-	$.get("/video/add_upload", {ts: ts}, function(data){
+	$.get("/upload_form.php", {ts: ts}, function(data){
 
 		// Add to the page
 		$("#uploadForm_container-outer").append(data);

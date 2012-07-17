@@ -1,5 +1,36 @@
 @CHARSET "ISO-8859-1";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #333333;
+    direction: ltr;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    unicode-bidi: embed;
+	min-width: 970px;
+}
+
+.clearer {
+    clear: both;
+}
+
+.container_16{
+	margin:auto; width:970px; margin-top:50px;
+}
+
 .upload_not_allowed_outer{
 	width:550px; margin:auto; margin-top:40px;
 }
