@@ -83,7 +83,7 @@ function add_upload(){
 	count = $(".upload_item").length;
 
 	// Generate the form
-	$.get("/upload_form.php", {ts: ts}, function(data){
+	$.get("upload_form.php", {ts: ts}, function(data){
 
 		// Add to the page
 		$("#uploadForm_container-outer").append(data);
@@ -152,7 +152,7 @@ function show_bar_message(selector, success, message){
 }
 
 function get_upload_progress(){
-	$.getJSON('/get_upload_info.php', {ids: u_ids}, function(data){
+	$.getJSON('get_upload_info.php', {ids: u_ids}, function(data){
 		update_progress(data);
 	});
 	upload_timer = setTimeout("get_upload_progress()", timeout);
